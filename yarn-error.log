@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add ethers
+
+PATH: 
+  /home/common/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/common/Desktop/Projects/MY_NPM_PACKAGES/web3-price-eth/package.json: Unexpected token } in JSON at position 381
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "web3-price-eth",
+    "version": "1.0.0",
+    "description": "A library to get token prices in ETH and USD from Uniswap.",
+    "main": "src/index.js",
+    "author": "Shazzad Hossen",
+    "license": "MIT",
+    "scripts": {
+      "test": "node test/test.js",
+      "dev":"node src/index.js"
+    },
+    "keywords": [
+      "ethereum",
+      "uniswap",
+      "token",
+      "price",
+      "ethers"
+    ],
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
