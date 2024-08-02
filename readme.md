@@ -1,6 +1,6 @@
 # web3-price-eth
 
-`web3-price-eth` is a Node.js library for fetching the price of a specific Ethereum token from the blockchain using the Web3.js framework. It provides a simple interface to get real-time token prices by querying smart contracts on the Ethereum network.
+`web3-price-eth` is a Node.js library for fetching the price of a specific Ethereum token from the blockchain using the ethers.js framework. It provides a simple interface to get real-time token prices by querying smart contracts on the Ethereum network.
 
 ## Installation
 
