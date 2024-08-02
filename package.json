@@ -1,6 +1,6 @@
 {
   "name": "web3-price-eth",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A library to get token prices in ETH and USD from Uniswap.",
   "main": "src/index.js",
   "author": "Shazzad Hossen",
