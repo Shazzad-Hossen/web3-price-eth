@@ -1,6 +1,7 @@
 const { JsonRpcProvider } = require('ethers');
 const fetchTokenPrice = require('./fetchTokenPrice');
 const isErc20Token = require('./isErc20Token');
+const Big= require('./bigOperation');
 
 class Web3Price {
     /**
@@ -37,3 +38,4 @@ class Web3Price {
 }
 
 module.exports = Web3Price;
+module.exports={Big};

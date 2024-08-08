@@ -17,7 +17,8 @@
   ],
   "dependencies": {
     "axios": "^1.7.3",
+    "big.js": "^6.2.1",
     "ethers": "^6.13.2"
   },
-   "homepage": "https://github.com/Shazzad-Hossen/web3-price-eth"
+  "homepage": "https://github.com/Shazzad-Hossen/web3-price-eth"
 }
